@@ -1,6 +1,7 @@
 import { setTimeout as sleep } from 'node:timers/promises'
 import ProgressBar from 'progress'
 
+console.log('starting progress...')
 const count = 20
 const bar = new ProgressBar(`Progress [:bar] :rate/bps :percent :etas`, {
   total: count
